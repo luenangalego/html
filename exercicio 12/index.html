@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens criadas no gimp</title>
+</head>
+<body>
+    <h1>imagem dinamica</h1>
+    <p>tente abrir esse site em varios dispositivos diferentes ou simplesmene aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        
+       <source media="(max-width: 1050px )" srcset="imagens/foto2.png">
+        <img src="imagens/foto1.png" alt="imagem flexivel"
+        source media="(min-width: 750px )" srcset="imagens/grande.png" type="image/png">
+        
+    </picture>
+
+    <H1>AUDIO NO MEU site</H1>
+    <p>Vamos colocar um audio no site html5</p>
+    <audio preload="auto" autoplay controls loop>
+<source src="media/A Walk Into Space - Topher Mohr and Alex Elena.mp3a" type="audio/mpeg">
+<source src="media/A Walk Into Space - Topher Mohr and Alex Elena.mp3" type="audio/ogg">
+<source src="media/A Walk Into Space - Topher Mohr and Alex Elena.mp3" type="audio/wav">
+
+    </audio>
+
+    <h1>Videos inserido em site</h1>
+    <p>meu video no meu servidor.</p>
+    <video poster="imagens/grande.png" controls autoplay loop >
+        <source src="videos/Meu Video.mp4" type="video/mp4">
+        <source src="videos/videonovo.mp4" type="">
+        <p>seu navegador tem compatibilidade de reproodução</p>
+
+    </video>
+    <h1>Video de outros sites no meu site</h1>
+    <iframe width="560" height="315"  src="https://www.youtube.com/embed/FdE5G95B7Mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+   
+
+   
+</body>
+</html>
